@@ -33,6 +33,6 @@ concat([
 	'./source/second.txt',
 
 ], './destination/first_second_concatenated.txt',  (err, result) => {
-
+	console.log(result);
 });
 ```
